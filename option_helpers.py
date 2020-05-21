@@ -35,7 +35,7 @@ def get_option(ticker, d=12, m=2, y=2016, option_type=Call):
   except:
     raise
 
-def get_holdings_iv(holdings=sp500_holdings, limit=100, highIv=True):
+def get_holdings_iv(holdings, limit=100, highIv=True):
   stock_list = []
   exceptions = []
   for ticker in holdings[:limit]:
