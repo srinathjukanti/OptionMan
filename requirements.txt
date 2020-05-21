@@ -1,3 +1,4 @@
 wallstreet
 time
 BeautifulSoup4
+yfinance
